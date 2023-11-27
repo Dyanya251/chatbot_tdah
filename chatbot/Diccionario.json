@@ -1,0 +1,36 @@
+{
+    "intents": [
+      {
+        "tag": "Saludo",
+        "patterns": ["Hola", "Que tal?", "Hola Thalia"],
+        "responses": ["Hola, soy Thalia :), ¿En qué puedo ayudarte?"]
+      },
+      {
+        "tag": "Despedida",
+        "patterns": ["Adiós", "Gracias y adios"],
+        "responses": ["Adios, si tienes más preguntas estaré aquí para ayudarte :)."]
+      },
+      {
+        "tag": "DiagnosticoTDAH",
+        "patterns": ["Creo que tengo TDAH.", "Tengo dudas sobre el TDAH", ";¿Me puedes ayudar con un diagnostico?"],
+        "responses": ["Puedo ayudarte pero tendré que preguntarte algunas cosas ¿Podrias responder?"],
+        "sintomas": [
+          {"nombre": "Angustia", "respuesta": "sí"},
+          {"nombre": "Desconcentración", "respuesta": "sí"},
+          {"nombre": "Insomnio", "respuesta": "sí"},
+          {"nombre": "Problemas de concentración", "respuesta": "sí"},
+          {"nombre": "Comportamiento repetitivo", "respuesta": "no"},
+          {"nombre": "Hiperactividad", "respuesta": "sí"},
+          {"nombre": "Impulsividad", "respuesta": "no"},
+          {"nombre": "Verborrea", "respuesta": "sí"},
+          {"nombre": "Diagnóstico familiar", "respuesta": "no"},
+          {"nombre": "Aumento de energía", "respuesta": "sí"}
+        ]
+      },
+      {
+        "tag": "Dudas",
+        "patterns": ["Cuéntame más", "Explícame eso", "No entendi, puedes explicarme más?"],
+        "responses": ["Puedo darte más información, ¿Que te gustaría aprender más?"]
+      }
+    ]
+  }
